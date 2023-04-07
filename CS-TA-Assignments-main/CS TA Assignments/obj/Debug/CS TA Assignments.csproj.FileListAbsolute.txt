@@ -1,0 +1,12 @@
+C:\Users\Trey\Source\Repos\mulaghi\Capstone-Project-TA-Assignment-\CS-TA-Assignments-main\CS TA Assignments\bin\Debug\CS TA Assignments.exe.config
+C:\Users\Trey\Source\Repos\mulaghi\Capstone-Project-TA-Assignment-\CS-TA-Assignments-main\CS TA Assignments\bin\Debug\CS TA Assignments.exe
+C:\Users\Trey\Source\Repos\mulaghi\Capstone-Project-TA-Assignment-\CS-TA-Assignments-main\CS TA Assignments\bin\Debug\CS TA Assignments.pdb
+C:\Users\Trey\Source\Repos\mulaghi\Capstone-Project-TA-Assignment-\CS-TA-Assignments-main\CS TA Assignments\obj\Debug\CS TA Assignments.csproj.AssemblyReference.cache
+C:\Users\Trey\Source\Repos\mulaghi\Capstone-Project-TA-Assignment-\CS-TA-Assignments-main\CS TA Assignments\obj\Debug\CS TA Assignments.csproj.SuggestedBindingRedirects.cache
+C:\Users\Trey\Source\Repos\mulaghi\Capstone-Project-TA-Assignment-\CS-TA-Assignments-main\CS TA Assignments\obj\Debug\cwu.cs.TaAssignments.TableForm.resources
+C:\Users\Trey\Source\Repos\mulaghi\Capstone-Project-TA-Assignment-\CS-TA-Assignments-main\CS TA Assignments\obj\Debug\cwu.cs.TaAssignments.MainForm.resources
+C:\Users\Trey\Source\Repos\mulaghi\Capstone-Project-TA-Assignment-\CS-TA-Assignments-main\CS TA Assignments\obj\Debug\cwu.cs.TaAssignments.Properties.Resources.resources
+C:\Users\Trey\Source\Repos\mulaghi\Capstone-Project-TA-Assignment-\CS-TA-Assignments-main\CS TA Assignments\obj\Debug\CS TA Assignments.csproj.GenerateResource.cache
+C:\Users\Trey\Source\Repos\mulaghi\Capstone-Project-TA-Assignment-\CS-TA-Assignments-main\CS TA Assignments\obj\Debug\CS TA Assignments.csproj.CoreCompileInputs.cache
+C:\Users\Trey\Source\Repos\mulaghi\Capstone-Project-TA-Assignment-\CS-TA-Assignments-main\CS TA Assignments\obj\Debug\CS TA Assignments.exe
+C:\Users\Trey\Source\Repos\mulaghi\Capstone-Project-TA-Assignment-\CS-TA-Assignments-main\CS TA Assignments\obj\Debug\CS TA Assignments.pdb

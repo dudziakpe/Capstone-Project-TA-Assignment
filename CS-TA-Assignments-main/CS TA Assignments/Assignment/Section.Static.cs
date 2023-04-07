@@ -6,10 +6,10 @@ namespace cwu.cs.TaAssignments
     partial class Section
     {
         // List of courses that do not get TAs assigned.
-        private static HashSet<int> ignoredCourses = new HashSet<int> { 184, 325, 392, 481, 489, 492, 495 };
+        private static HashSet<int> ignoredCourses = new HashSet<int> { 184, 325, 392, 481, 489, 492, 495, 496 };
 
         // List of courses whos labs are a different section.
-        private static HashSet<int> labCourses = new HashSet<int> { 105, 110 };
+        private static HashSet<int> labCourses = new HashSet<int> {105};
 
         static bool IsCourseIgnored(int number)
         {

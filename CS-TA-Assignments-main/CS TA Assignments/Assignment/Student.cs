@@ -58,6 +58,7 @@ namespace cwu.cs.TaAssignments
 
             ID = int.Parse(csvLine[idCol]);
 
+
             string[] allNames =
                 csvLine[nameCol].Split
                 (
