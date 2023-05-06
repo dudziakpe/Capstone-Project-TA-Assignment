@@ -108,5 +108,10 @@ namespace cwu.cs.TaAssignments
 #endif
             txtLog.Text = TextLog.ToString();
         }
+
+        private void gbxOutput_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }

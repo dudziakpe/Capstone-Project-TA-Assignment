@@ -29,6 +29,7 @@ namespace cwu.cs.TaAssignments
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.txtLog = new System.Windows.Forms.TextBox();
             this.txtApplications = new System.Windows.Forms.TextBox();
             this.lblApplications = new System.Windows.Forms.Label();
@@ -56,7 +57,9 @@ namespace cwu.cs.TaAssignments
             this.txtLog.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtLog.BackColor = System.Drawing.SystemColors.GrayText;
             this.txtLog.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtLog.ForeColor = System.Drawing.SystemColors.Window;
             this.txtLog.Location = new System.Drawing.Point(11, 210);
             this.txtLog.Margin = new System.Windows.Forms.Padding(2);
             this.txtLog.Multiline = true;
@@ -70,6 +73,8 @@ namespace cwu.cs.TaAssignments
             // 
             this.txtApplications.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtApplications.BackColor = System.Drawing.SystemColors.GrayText;
+            this.txtApplications.ForeColor = System.Drawing.SystemColors.Window;
             this.txtApplications.Location = new System.Drawing.Point(73, 20);
             this.txtApplications.Margin = new System.Windows.Forms.Padding(2);
             this.txtApplications.Name = "txtApplications";
@@ -90,25 +95,27 @@ namespace cwu.cs.TaAssignments
             // btnApplications
             // 
             this.btnApplications.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnApplications.BackColor = System.Drawing.SystemColors.GrayText;
             this.btnApplications.Location = new System.Drawing.Point(663, 18);
             this.btnApplications.Margin = new System.Windows.Forms.Padding(2);
             this.btnApplications.Name = "btnApplications";
             this.btnApplications.Size = new System.Drawing.Size(75, 23);
             this.btnApplications.TabIndex = 4;
             this.btnApplications.Text = "open";
-            this.btnApplications.UseVisualStyleBackColor = true;
+            this.btnApplications.UseVisualStyleBackColor = false;
             this.btnApplications.Click += new System.EventHandler(this.btnApplications_Click);
             // 
             // btnSchedule
             // 
             this.btnSchedule.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnSchedule.BackColor = System.Drawing.SystemColors.GrayText;
             this.btnSchedule.Location = new System.Drawing.Point(663, 45);
             this.btnSchedule.Margin = new System.Windows.Forms.Padding(2);
             this.btnSchedule.Name = "btnSchedule";
             this.btnSchedule.Size = new System.Drawing.Size(75, 23);
             this.btnSchedule.TabIndex = 7;
             this.btnSchedule.Text = "open";
-            this.btnSchedule.UseVisualStyleBackColor = true;
+            this.btnSchedule.UseVisualStyleBackColor = false;
             this.btnSchedule.Click += new System.EventHandler(this.btnSchedule_Click);
             // 
             // lblSchedule
@@ -126,6 +133,8 @@ namespace cwu.cs.TaAssignments
             // 
             this.txtSchedule.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtSchedule.BackColor = System.Drawing.SystemColors.GrayText;
+            this.txtSchedule.ForeColor = System.Drawing.SystemColors.Window;
             this.txtSchedule.Location = new System.Drawing.Point(73, 47);
             this.txtSchedule.Margin = new System.Windows.Forms.Padding(2);
             this.txtSchedule.Name = "txtSchedule";
@@ -135,13 +144,14 @@ namespace cwu.cs.TaAssignments
             // btnGrades
             // 
             this.btnGrades.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnGrades.BackColor = System.Drawing.SystemColors.GrayText;
             this.btnGrades.Location = new System.Drawing.Point(663, 72);
             this.btnGrades.Margin = new System.Windows.Forms.Padding(2);
             this.btnGrades.Name = "btnGrades";
             this.btnGrades.Size = new System.Drawing.Size(75, 23);
             this.btnGrades.TabIndex = 10;
             this.btnGrades.Text = "open";
-            this.btnGrades.UseVisualStyleBackColor = true;
+            this.btnGrades.UseVisualStyleBackColor = false;
             this.btnGrades.Click += new System.EventHandler(this.btnGrades_Click);
             // 
             // lblGrades
@@ -159,6 +169,8 @@ namespace cwu.cs.TaAssignments
             // 
             this.txtGrades.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtGrades.BackColor = System.Drawing.SystemColors.GrayText;
+            this.txtGrades.ForeColor = System.Drawing.SystemColors.Window;
             this.txtGrades.Location = new System.Drawing.Point(73, 74);
             this.txtGrades.Margin = new System.Windows.Forms.Padding(2);
             this.txtGrades.Name = "txtGrades";
@@ -169,13 +181,14 @@ namespace cwu.cs.TaAssignments
             // 
             this.btnRun.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnRun.AutoSize = true;
+            this.btnRun.BackColor = System.Drawing.SystemColors.GrayText;
             this.btnRun.Location = new System.Drawing.Point(674, 183);
             this.btnRun.Margin = new System.Windows.Forms.Padding(2);
             this.btnRun.Name = "btnRun";
             this.btnRun.Size = new System.Drawing.Size(75, 23);
             this.btnRun.TabIndex = 11;
             this.btnRun.Text = "Run";
-            this.btnRun.UseVisualStyleBackColor = true;
+            this.btnRun.UseVisualStyleBackColor = false;
             this.btnRun.Click += new System.EventHandler(this.btnRun_Click);
             // 
             // dlgOpenCsv
@@ -215,23 +228,27 @@ namespace cwu.cs.TaAssignments
             this.gbxOutput.TabIndex = 13;
             this.gbxOutput.TabStop = false;
             this.gbxOutput.Text = "Output";
+            this.gbxOutput.Enter += new System.EventHandler(this.gbxOutput_Enter);
             // 
             // btnResults
             // 
             this.btnResults.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnResults.BackColor = System.Drawing.SystemColors.GrayText;
             this.btnResults.Location = new System.Drawing.Point(663, 18);
             this.btnResults.Margin = new System.Windows.Forms.Padding(2);
             this.btnResults.Name = "btnResults";
             this.btnResults.Size = new System.Drawing.Size(75, 23);
             this.btnResults.TabIndex = 7;
             this.btnResults.Text = "save";
-            this.btnResults.UseVisualStyleBackColor = true;
+            this.btnResults.UseVisualStyleBackColor = false;
             this.btnResults.Click += new System.EventHandler(this.btnResults_Click);
             // 
             // txtResults
             // 
             this.txtResults.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtResults.BackColor = System.Drawing.SystemColors.GrayText;
+            this.txtResults.ForeColor = System.Drawing.SystemColors.Window;
             this.txtResults.Location = new System.Drawing.Point(73, 20);
             this.txtResults.Margin = new System.Windows.Forms.Padding(2);
             this.txtResults.Name = "txtResults";
@@ -257,14 +274,17 @@ namespace cwu.cs.TaAssignments
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Crimson;
             this.ClientSize = new System.Drawing.Size(766, 647);
             this.Controls.Add(this.gbxOutput);
             this.Controls.Add(this.gbxInput);
             this.Controls.Add(this.btnRun);
             this.Controls.Add(this.txtLog);
+            this.ForeColor = System.Drawing.Color.Snow;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "MainForm";
-            this.Text = "CS TA Assignment";
+            this.Text = "CWU CS TA Assignment";
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.gbxInput.ResumeLayout(false);
             this.gbxInput.PerformLayout();
