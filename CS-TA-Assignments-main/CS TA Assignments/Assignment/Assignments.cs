@@ -154,9 +154,11 @@ namespace cwu.cs.TaAssignments
             // Output results.
 
             HashSet<Section> noStudent = new HashSet<Section>();
-            CsvBuilder output = new CsvBuilder();
+            CsvBuilder AssignedOutput = new CsvBuilder();
+            CsvBuilder UnassignedStudentOutput = new CsvBuilder();
+            CsvBuilder UnassignedCourseOutput = new CsvBuilder();
 
-            output.AddLine(new string[]
+            AssignedOutput.AddLine(new string[]
             {
                 "class",
 
@@ -236,16 +238,16 @@ namespace cwu.cs.TaAssignments
                 line.Add(sec.labTimes.GetEndTimes());
                 line.Add(sec.room);
 
-                output.AddLine(line.ToArray());
+                AssignedOutput.AddLine(line.ToArray());
             }
 
 
             // -- Students not assigned. --
 
-            output.AddLine();
-            output.AddLine("*** Students without assignment ***");
+            UnassignedStudentOutput.AddLine();
+            UnassignedStudentOutput.AddLine("*** Students without assignment ***");
 
-            output.AddLine(new string[]
+            UnassignedStudentOutput.AddLine(new string[]
             {
                 "ID",
                 "Last Name",
@@ -261,7 +263,7 @@ namespace cwu.cs.TaAssignments
             {
                 Student stud = noMatch[i];
 
-                output.AddLine(new string[]
+                UnassignedStudentOutput.AddLine(new string[]
                 {
                     stud.ID.ToString(),
                     stud.lastName,
@@ -277,10 +279,10 @@ namespace cwu.cs.TaAssignments
 
             // -- Classes without students. --
 
-            output.AddLine();
-            output.AddLine("*** Classes without students ***");
+            UnassignedCourseOutput.AddLine();
+            UnassignedCourseOutput.AddLine("*** Classes without students ***");
 
-            output.AddLine(new string[]
+            UnassignedCourseOutput.AddLine(new string[]
             {
                 "Class",
                 "Section",
@@ -288,16 +290,18 @@ namespace cwu.cs.TaAssignments
 
             foreach (Section sec in noStudent)
             {
-                output.AddLine(new string[]
+                UnassignedCourseOutput.AddLine(new string[]
                 {
                     sec.number.ToString(),
                     sec.section,
                 });
             }
 
-
+            //creates 3 different files for user
             TextLog.WriteLine();
-            output.ToFile(fileResult);
+            AssignedOutput.ToFile("AssignedStudents.csv");
+            UnassignedStudentOutput.ToFile("UnassignedStudents.csv");
+            UnassignedCourseOutput.ToFile("UnassignedCourses.csv");
         }
 
         private static int[] getScheduleClasses(Section[] allSections)

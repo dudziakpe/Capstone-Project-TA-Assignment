@@ -13,7 +13,7 @@ namespace cwu.cs.TaAssignments
         public const int FirstClassHour = 8;
 
         // The number of time slots each day:
-        // 8 a.m. until 3 p.m. I (Treyden) changed this from 8 to 10 ***********
+        // 8 a.m. until 5 p.m. 
         public const int SlotsPerDay = 10;
 
         // The number of days each week.

@@ -1,0 +1,23 @@
+﻿class,FirstName,FacultyName,facultyEmail,StudentName1,StudentFirstName1,Course1,numCredits,studentEmail1,StudentName2,StudentFirstName2,Course2,numCredits,studentEmail2,day,startTime,endTime,Room
+110.001,Tatiana,Ms. Harrison,Tatiana.Harrison@cwu.edu,Nimi,Szeth,392,1,Szeth.Nimi@cwu.edu,Seeker,Marsh,492,2,hathsinm@cwu.edu,Monday / Tuesday / Wednesday / Thursday,10:00AM,10:50AM,SAMU102
+111.001,Tatiana,Ms. Harrison,Tatiana.Harrison@cwu.edu,Laan,Me,392,1,laanme@cwu.edu,Yolen,Hoid,492,2,yolenh@cwu.edu,Monday / Tuesday / Wednesday / Thursday,11:00AM,11:50AM,SAMU101
+112.001,Sarah,Ms. Abdul-Wahid,Sarah.Abdul-Wahid@cwu.edu,Renoux,Vin,392,1,Vin.Renoux@cwu.edu,Alethi,Teft,492,2,Teft.Alethi@cwu.edu,Tuesday / Thursday,10:00AM,10:50AM,SAMU148
+112.D01,Sarah,Ms. Abdul-Wahid,Sarah.Abdul-Wahid@cwu.edu,Nalthis,Nimi,392,1,nimin@cwu.edu,Duladel,Galladon,492,2,Galladon.Duladel@cwu.edu,Tuesday / Thursday,10:00AM,10:50AM,DESM208
+301.001,Dmytro,Mr. Dovhalets,Dmytro.Dovhalets@cwu.edu,Soon,Ten,392,1,TenSoon@cwu.edu,Herald,Jezrien,492,2,heraldj@cwu.edu,Monday / Tuesday / Wednesday / Thursday,9:00AM,9:50AM,SAMU149
+302.001,Dmytro,Mr. Dovhalets,Dmytro.Dovhalets@cwu.edu,Elin,Talenelat,392,1,Talenelat.Elin@cwu.edu,Herdazian,Lopen,492,2,herdazianl@cwu.edu,Monday / Tuesday / Wednesday / Thursday,10:00AM,10:50AM,SAMU103
+311.001,Donald,Dr. Davendra,Donald.Davendra@cwu.edu,Vyre,Moash,392,1,vyremo@cwu.edu,Synod,Tindwyl,492,2,SynodT@cwu.edu,Thursday,3:00PM,3:50PM,SAMU148
+312.001,Donald,Dr. Davendra,Donald.Davendra@cwu.edu,Kandra,VenDell,392,1,kandrav@cwu.edu,Luthadel,Dockson,492,2,Dockson.Luthadel@cwu.edu,Thursday,4:00PM,4:50PM,SAMU148
+361.A01,,,,Son-son-Vallano,Szeth,392,1,son-sons@cwu.edu,Davar,Shallan,492,2,Shallan.Davar@cwu.edu,Tuesday / Thursday,2:00PM,2:50PM,ONLINE
+362.001,Tatiana,Ms. Harrison,Tatiana.Harrison@cwu.edu,Tineye,Mare,392,1,Mare.Tineye@cwu.edu,Ladrian,Waxillium,492,2,Waxillium.Ladrian@cwu.edu,Monday / Tuesday / Wednesday / Thursday,2:00PM,2:50PM,SAMU113
+367.001,Sarah,Ms. Abdul-Wahid,Sarah.Abdul-Wahid@cwu.edu,Ladrain,Breeze,392,1,Breeze.Ladrain@cwu.edu,,,,,,Monday / Tuesday / Wednesday / Thursday,11:00AM,11:50AM,SAMU171
+380.001,Dmytro,Mr. Dovhalets,Dmytro.Dovhalets@cwu.edu,Tineye,Lestibournes,392,1,TineyeL@cwu.edu,Cladent,Clubs,492,2,clubsC@cwu.edu,Thursday,12:00PM,12:50PM,SAMU147
+380.002,Dmytro,Mr. Dovhalets,Dmytro.Dovhalets@cwu.edu,Ladrian,Edgard,392,1,Edgard.Ladrian@cwu.edu,Bluefingers,Havarseth,492,2,Havarseth.Bluefingers@cwu.edu,Thursday,1:00PM,1:50PM,SAMU147
+420.001,Nathan,Dr. White,nathan.white@cwu.edu,Venture,Straff,392,1,Straff.Venture@cwu.edu,Terris,Rashek,492,2,TerrisR@cwu.edu,Monday / Tuesday / Wednesday / Thursday,3:00PM,3:50PM,SAMU147
+420.D01,Nathan,Dr. White,nathan.white@cwu.edu,Fjorden,AonDor,392,1,fjordena@cwu.edu,Harmony,Sazed,492,2,harmonys@cwu.edu,Tuesday,12:00PM,12:50PM,DESM113
+427.001,Razvan,Dr. Andonie,Razvan.Andonie@cwu.edu,Venture,Elend,392,1,Elend.Venture@cwu.edu,Yolen,Witt,492,2,Witt.Yolen@cwu.edu,Monday / Tuesday / Wednesday / Thursday,10:00AM,10:50AM,SAMU245
+430.001,,,,Teod,Sarene,492,2,Sarene.Teod@cwu.edu,,,,,,Wednesday,4:00PM,4:50PM,SAMU148
+430.D01,,,,Idrian,Vivenna,392,1,Vivenna.Idrian@cwu.edu,,,,,,Wednesday,4:00PM,4:50PM,DESM113
+450.A01,Nathan,Dr. White,nathan.white@cwu.edu,Goradel,Wayne,392,1,goradelw@cwu.edu,Ladrain,Breeze,392,1,Breeze.Ladrain@cwu.edu,Monday / Tuesday / Wednesday / Thursday,10:00AM,10:50AM,ONLINE
+450.D01,Nathan,Dr. White,nathan.white@cwu.edu,Shard,Adonalsium,392,1,sharda@cwu.edu,Hathsin,Kelsier,492,2,Kelsier.Hathsin@cwu.edu,Monday / Tuesday / Wednesday / Thursday,10:00AM,10:50AM,DESM113
+457.001,Razvan,Dr. Andonie,Razvan.Andonie@cwu.edu,Shardbearer,Tshadr,392,1,shardbearert@cwu.edu,,,,,,Monday / Tuesday / Wednesday / Thursday,11:00AM,11:50AM,SAMU149
+470.001,Szilard,Dr. Vajda,Szilard.Vajda@cwu.edu,Kholin,Dalinar,392,1,Dalinar.Kholin@cwu.edu,Lightsong,Stennimar,492,2,LightsongS@cwu.edu,Monday / Tuesday / Wednesday / Thursday,9:00AM,9:50AM,SAMU102
