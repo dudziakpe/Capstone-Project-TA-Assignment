@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Drawing;
 using System.IO;
 using System.Text;
@@ -112,6 +113,32 @@ namespace cwu.cs.TaAssignments
         private void gbxOutput_Enter(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string exePath = Path.GetDirectoryName(Application.ExecutablePath);
+            string debugFolder = Directory.GetParent(exePath).FullName;
+            string additionalFolder = Path.Combine(debugFolder, "AdditionalFolder");
+
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+            openFileDialog.InitialDirectory = additionalFolder;
+
+            openFileDialog.Filter = "CSV Files (*.csv)|*.csv|Word Documents (*.docx;*.doc)|*.docx;*.doc";
+            openFileDialog.RestoreDirectory = true;
+
+            if (openFileDialog.ShowDialog() == DialogResult.OK)
+            {
+                try
+                {
+                    Process.Start(new ProcessStartInfo(openFileDialog.FileName) { UseShellExecute = true });
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("Error: Could not read file from disk. Original error: " + ex.Message);
+                }
+            }
+            
         }
     }
 }

@@ -48,6 +48,7 @@ namespace cwu.cs.TaAssignments
             this.txtResults = new System.Windows.Forms.TextBox();
             this.lblResults = new System.Windows.Forms.Label();
             this.dlgSaveCsv = new System.Windows.Forms.SaveFileDialog();
+            this.Results = new System.Windows.Forms.Button();
             this.gbxInput.SuspendLayout();
             this.gbxOutput.SuspendLayout();
             this.SuspendLayout();
@@ -270,12 +271,27 @@ namespace cwu.cs.TaAssignments
             // 
             this.dlgSaveCsv.Filter = "csv-File|*.csv";
             // 
+            // Results
+            // 
+            this.Results.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.Results.AutoSize = true;
+            this.Results.BackColor = System.Drawing.SystemColors.GrayText;
+            this.Results.Location = new System.Drawing.Point(362, 183);
+            this.Results.Margin = new System.Windows.Forms.Padding(2);
+            this.Results.Name = "Results";
+            this.Results.Size = new System.Drawing.Size(81, 23);
+            this.Results.TabIndex = 14;
+            this.Results.Text = "Open Results";
+            this.Results.UseVisualStyleBackColor = false;
+            this.Results.Click += new System.EventHandler(this.button1_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Crimson;
             this.ClientSize = new System.Drawing.Size(766, 647);
+            this.Controls.Add(this.Results);
             this.Controls.Add(this.gbxOutput);
             this.Controls.Add(this.gbxInput);
             this.Controls.Add(this.btnRun);
@@ -314,6 +330,7 @@ namespace cwu.cs.TaAssignments
         private System.Windows.Forms.TextBox txtResults;
         private System.Windows.Forms.Label lblResults;
         private System.Windows.Forms.SaveFileDialog dlgSaveCsv;
+        private System.Windows.Forms.Button Results;
     }
 }
 
