@@ -26,6 +26,7 @@ namespace cwu.cs.TaAssignments
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new MainForm());
+            
         }
     }
 }

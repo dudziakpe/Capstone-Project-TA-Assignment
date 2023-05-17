@@ -1,11 +1,34 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
+using System.Linq;
 
 
 namespace cwu.cs.TaAssignments
 {
     class Assignments
     {
+        public static void StartWatching(string fileStudents, string fileSections, string fileGrades, string fileResult)
+        {
+            FileSystemWatcher watcher = new FileSystemWatcher
+            {
+                Path = Path.GetDirectoryName(fileStudents),
+                Filter = "*.csv",
+                NotifyFilter = NotifyFilters.LastWrite
+            };
+
+            watcher.Changed += (source, e) =>
+            {
+                // Ensure the changed file is one of the input files
+                if (new[] { fileStudents, fileSections, fileGrades }.Contains(e.FullPath))
+                {
+                    Console.WriteLine($"File: {e.FullPath} {e.ChangeType}");
+                    Compute(new[] { fileStudents, fileSections, fileGrades, fileResult });
+                }
+            };
+
+            watcher.EnableRaisingEvents = true;
+        }
         public static void Compute(string[] args)
         {
             TextLog.WriteLine("--- TA-Assignment ---");
@@ -302,6 +325,7 @@ namespace cwu.cs.TaAssignments
             AssignedOutput.ToFile("AssignedStudents.csv");
             UnassignedStudentOutput.ToFile("UnassignedStudents.csv");
             UnassignedCourseOutput.ToFile("UnassignedCourses.csv");
+
         }
 
         private static int[] getScheduleClasses(Section[] allSections)
