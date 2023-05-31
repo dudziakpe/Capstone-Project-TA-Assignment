@@ -36,12 +36,12 @@ namespace cwu.cs.TaAssignments
             string fileStudents = args[0];
             string fileSections = args[1];
             string fileGrades = args[2];
-            string fileResult = args[3];
+            
 
             TextLog.WriteLine("Student Applications: " + fileStudents);
             TextLog.WriteLine("    Offered Sections: " + fileSections);
             TextLog.WriteLine("              Grades: " + fileGrades);
-            TextLog.WriteLine("              Output: " + fileResult);
+            
             TextLog.WriteLine();
 
             List<List<string>> studentData = CsvParser.parseFile(fileStudents);

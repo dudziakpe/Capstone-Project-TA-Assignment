@@ -19,7 +19,7 @@ namespace cwu.cs.TaAssignments
 
         private void MainForm_Load(object sender, EventArgs e)
         {
-            txtResults.Text = Path.Combine(Application.StartupPath, "results.csv");
+            
 
             txtApplications.Text = FindFile("applications.csv");
             txtGrades.Text = FindFile("grades.csv");
@@ -69,7 +69,7 @@ namespace cwu.cs.TaAssignments
         private void btnResults_Click(object sender, EventArgs e)
         {
             if (dlgSaveCsv.ShowDialog() != DialogResult.OK) return;
-            txtResults.Text = dlgSaveCsv.FileName;
+            
         }
 
         private void btnRun_Click(object sender, EventArgs e)
@@ -79,14 +79,14 @@ namespace cwu.cs.TaAssignments
             string studentsCsv = txtApplications.Text;
             string scheduleCsv = txtSchedule.Text;
             string gradesCsv = txtGrades.Text;
-            string resultsCsv = txtResults.Text;
+            
 
 #if DEBUG
 #else
             try
 #endif
             {
-                Assignments.Compute(new string[] { studentsCsv, scheduleCsv, gradesCsv, resultsCsv });
+                Assignments.Compute(new string[] { studentsCsv, scheduleCsv, gradesCsv });
             }
 #if DEBUG
 #else

@@ -43,14 +43,9 @@ namespace cwu.cs.TaAssignments
             this.btnRun = new System.Windows.Forms.Button();
             this.dlgOpenCsv = new System.Windows.Forms.OpenFileDialog();
             this.gbxInput = new System.Windows.Forms.GroupBox();
-            this.gbxOutput = new System.Windows.Forms.GroupBox();
-            this.btnResults = new System.Windows.Forms.Button();
-            this.txtResults = new System.Windows.Forms.TextBox();
-            this.lblResults = new System.Windows.Forms.Label();
             this.dlgSaveCsv = new System.Windows.Forms.SaveFileDialog();
             this.Results = new System.Windows.Forms.Button();
             this.gbxInput.SuspendLayout();
-            this.gbxOutput.SuspendLayout();
             this.SuspendLayout();
             // 
             // txtLog
@@ -102,7 +97,7 @@ namespace cwu.cs.TaAssignments
             this.btnApplications.Name = "btnApplications";
             this.btnApplications.Size = new System.Drawing.Size(75, 23);
             this.btnApplications.TabIndex = 4;
-            this.btnApplications.Text = "open";
+            this.btnApplications.Text = "Search";
             this.btnApplications.UseVisualStyleBackColor = false;
             this.btnApplications.Click += new System.EventHandler(this.btnApplications_Click);
             // 
@@ -115,7 +110,7 @@ namespace cwu.cs.TaAssignments
             this.btnSchedule.Name = "btnSchedule";
             this.btnSchedule.Size = new System.Drawing.Size(75, 23);
             this.btnSchedule.TabIndex = 7;
-            this.btnSchedule.Text = "open";
+            this.btnSchedule.Text = "Search";
             this.btnSchedule.UseVisualStyleBackColor = false;
             this.btnSchedule.Click += new System.EventHandler(this.btnSchedule_Click);
             // 
@@ -151,7 +146,7 @@ namespace cwu.cs.TaAssignments
             this.btnGrades.Name = "btnGrades";
             this.btnGrades.Size = new System.Drawing.Size(75, 23);
             this.btnGrades.TabIndex = 10;
-            this.btnGrades.Text = "open";
+            this.btnGrades.Text = "Search";
             this.btnGrades.UseVisualStyleBackColor = false;
             this.btnGrades.Click += new System.EventHandler(this.btnGrades_Click);
             // 
@@ -216,57 +211,6 @@ namespace cwu.cs.TaAssignments
             this.gbxInput.TabStop = false;
             this.gbxInput.Text = "Input";
             // 
-            // gbxOutput
-            // 
-            this.gbxOutput.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.gbxOutput.Controls.Add(this.btnResults);
-            this.gbxOutput.Controls.Add(this.txtResults);
-            this.gbxOutput.Controls.Add(this.lblResults);
-            this.gbxOutput.Location = new System.Drawing.Point(11, 122);
-            this.gbxOutput.Name = "gbxOutput";
-            this.gbxOutput.Size = new System.Drawing.Size(743, 56);
-            this.gbxOutput.TabIndex = 13;
-            this.gbxOutput.TabStop = false;
-            this.gbxOutput.Text = "Output";
-            this.gbxOutput.Enter += new System.EventHandler(this.gbxOutput_Enter);
-            // 
-            // btnResults
-            // 
-            this.btnResults.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnResults.BackColor = System.Drawing.SystemColors.GrayText;
-            this.btnResults.Location = new System.Drawing.Point(663, 18);
-            this.btnResults.Margin = new System.Windows.Forms.Padding(2);
-            this.btnResults.Name = "btnResults";
-            this.btnResults.Size = new System.Drawing.Size(75, 23);
-            this.btnResults.TabIndex = 7;
-            this.btnResults.Text = "save";
-            this.btnResults.UseVisualStyleBackColor = false;
-            this.btnResults.Click += new System.EventHandler(this.btnResults_Click);
-            // 
-            // txtResults
-            // 
-            this.txtResults.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtResults.BackColor = System.Drawing.SystemColors.GrayText;
-            this.txtResults.ForeColor = System.Drawing.SystemColors.Window;
-            this.txtResults.Location = new System.Drawing.Point(73, 20);
-            this.txtResults.Margin = new System.Windows.Forms.Padding(2);
-            this.txtResults.Name = "txtResults";
-            this.txtResults.Size = new System.Drawing.Size(586, 20);
-            this.txtResults.TabIndex = 5;
-            // 
-            // lblResults
-            // 
-            this.lblResults.AutoSize = true;
-            this.lblResults.Location = new System.Drawing.Point(27, 23);
-            this.lblResults.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lblResults.Name = "lblResults";
-            this.lblResults.Size = new System.Drawing.Size(42, 13);
-            this.lblResults.TabIndex = 6;
-            this.lblResults.Text = "Results";
-            this.lblResults.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
             // dlgSaveCsv
             // 
             this.dlgSaveCsv.Filter = "csv-File|*.csv";
@@ -276,7 +220,7 @@ namespace cwu.cs.TaAssignments
             this.Results.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.Results.AutoSize = true;
             this.Results.BackColor = System.Drawing.SystemColors.GrayText;
-            this.Results.Location = new System.Drawing.Point(362, 183);
+            this.Results.Location = new System.Drawing.Point(19, 183);
             this.Results.Margin = new System.Windows.Forms.Padding(2);
             this.Results.Name = "Results";
             this.Results.Size = new System.Drawing.Size(81, 23);
@@ -289,10 +233,9 @@ namespace cwu.cs.TaAssignments
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Crimson;
+            this.BackColor = System.Drawing.Color.DarkCyan;
             this.ClientSize = new System.Drawing.Size(766, 647);
             this.Controls.Add(this.Results);
-            this.Controls.Add(this.gbxOutput);
             this.Controls.Add(this.gbxInput);
             this.Controls.Add(this.btnRun);
             this.Controls.Add(this.txtLog);
@@ -304,8 +247,6 @@ namespace cwu.cs.TaAssignments
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.gbxInput.ResumeLayout(false);
             this.gbxInput.PerformLayout();
-            this.gbxOutput.ResumeLayout(false);
-            this.gbxOutput.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -325,10 +266,6 @@ namespace cwu.cs.TaAssignments
         private System.Windows.Forms.Button btnRun;
         private System.Windows.Forms.OpenFileDialog dlgOpenCsv;
         private System.Windows.Forms.GroupBox gbxInput;
-        private System.Windows.Forms.GroupBox gbxOutput;
-        private System.Windows.Forms.Button btnResults;
-        private System.Windows.Forms.TextBox txtResults;
-        private System.Windows.Forms.Label lblResults;
         private System.Windows.Forms.SaveFileDialog dlgSaveCsv;
         private System.Windows.Forms.Button Results;
     }

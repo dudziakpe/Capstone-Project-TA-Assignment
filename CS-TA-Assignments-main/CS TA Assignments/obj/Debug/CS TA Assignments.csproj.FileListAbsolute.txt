@@ -42,3 +42,35 @@ C:\Users\Treyd\source\repos\Capstone-Project-TA-Assignment-\CS-TA-Assignments-ma
 C:\Users\Treyd\source\repos\Capstone-Project-TA-Assignment-\CS-TA-Assignments-main\CS TA Assignments\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\Treyd\source\repos\Capstone-Project-TA-Assignment-\CS-TA-Assignments-main\CS TA Assignments\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\Treyd\source\repos\Capstone-Project-TA-Assignment-\CS-TA-Assignments-main\CS TA Assignments\obj\Debug\CS TA Assignments.csproj.ResolveComReference.cache
+C:\Users\CondonG\Source\Repos\Capstone-Project-TA-Assignment-\CS-TA-Assignments-main\CS TA Assignments\obj\Debug\CS TA Assignments.csproj.AssemblyReference.cache
+C:\Users\CondonG\Source\Repos\Capstone-Project-TA-Assignment-\CS-TA-Assignments-main\CS TA Assignments\obj\Debug\CS TA Assignments.csproj.SuggestedBindingRedirects.cache
+C:\Users\CondonG\Source\Repos\Capstone-Project-TA-Assignment-\CS-TA-Assignments-main\CS TA Assignments\obj\Debug\CS TA Assignments.csproj.ResolveComReference.cache
+C:\Users\CondonG\Source\Repos\Capstone-Project-TA-Assignment-\CS-TA-Assignments-main\CS TA Assignments\obj\Debug\cwu.cs.TaAssignments.TableForm.resources
+C:\Users\CondonG\Source\Repos\Capstone-Project-TA-Assignment-\CS-TA-Assignments-main\CS TA Assignments\obj\Debug\cwu.cs.TaAssignments.MainForm.resources
+C:\Users\CondonG\Source\Repos\Capstone-Project-TA-Assignment-\CS-TA-Assignments-main\CS TA Assignments\obj\Debug\cwu.cs.TaAssignments.Properties.Resources.resources
+C:\Users\CondonG\Source\Repos\Capstone-Project-TA-Assignment-\CS-TA-Assignments-main\CS TA Assignments\obj\Debug\CS TA Assignments.csproj.GenerateResource.cache
+C:\Users\CondonG\Source\Repos\Capstone-Project-TA-Assignment-\CS-TA-Assignments-main\CS TA Assignments\obj\Debug\CS TA Assignments.csproj.CoreCompileInputs.cache
+C:\Users\CondonG\Source\Repos\Capstone-Project-TA-Assignment-\CS-TA-Assignments-main\CS TA Assignments\obj\Debug\CS TA Assignments.exe
+C:\Users\CondonG\Source\Repos\Capstone-Project-TA-Assignment-\CS-TA-Assignments-main\CS TA Assignments\obj\Debug\CS TA Assignments.pdb
+C:\Users\CondonG\Source\Repos\Capstone-Project-TA-Assignment-\CS-TA-Assignments-main\CS TA Assignments\bin\Debug\CS TA Assignments.exe.config
+C:\Users\CondonG\Source\Repos\Capstone-Project-TA-Assignment-\CS-TA-Assignments-main\CS TA Assignments\bin\Debug\CS TA Assignments.exe
+C:\Users\CondonG\Source\Repos\Capstone-Project-TA-Assignment-\CS-TA-Assignments-main\CS TA Assignments\bin\Debug\CS TA Assignments.pdb
+C:\Users\CondonG\Source\Repos\Capstone-Project-TA-Assignment-\CS-TA-Assignments-main\CS TA Assignments\bin\Debug\CsvHelper.dll
+C:\Users\CondonG\Source\Repos\Capstone-Project-TA-Assignment-\CS-TA-Assignments-main\CS TA Assignments\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\CondonG\Source\Repos\Capstone-Project-TA-Assignment-\CS-TA-Assignments-main\CS TA Assignments\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\CondonG\Source\Repos\Capstone-Project-TA-Assignment-\CS-TA-Assignments-main\CS TA Assignments\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\Users\CondonG\Source\Repos\Capstone-Project-TA-Assignment-\CS-TA-Assignments-main\CS TA Assignments\bin\Debug\System.Buffers.dll
+C:\Users\CondonG\Source\Repos\Capstone-Project-TA-Assignment-\CS-TA-Assignments-main\CS TA Assignments\bin\Debug\System.Memory.dll
+C:\Users\CondonG\Source\Repos\Capstone-Project-TA-Assignment-\CS-TA-Assignments-main\CS TA Assignments\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\CondonG\Source\Repos\Capstone-Project-TA-Assignment-\CS-TA-Assignments-main\CS TA Assignments\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\CondonG\Source\Repos\Capstone-Project-TA-Assignment-\CS-TA-Assignments-main\CS TA Assignments\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\CondonG\Source\Repos\Capstone-Project-TA-Assignment-\CS-TA-Assignments-main\CS TA Assignments\bin\Debug\CsvHelper.xml
+C:\Users\CondonG\Source\Repos\Capstone-Project-TA-Assignment-\CS-TA-Assignments-main\CS TA Assignments\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\CondonG\Source\Repos\Capstone-Project-TA-Assignment-\CS-TA-Assignments-main\CS TA Assignments\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\CondonG\Source\Repos\Capstone-Project-TA-Assignment-\CS-TA-Assignments-main\CS TA Assignments\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\Users\CondonG\Source\Repos\Capstone-Project-TA-Assignment-\CS-TA-Assignments-main\CS TA Assignments\bin\Debug\System.Buffers.xml
+C:\Users\CondonG\Source\Repos\Capstone-Project-TA-Assignment-\CS-TA-Assignments-main\CS TA Assignments\bin\Debug\System.Memory.xml
+C:\Users\CondonG\Source\Repos\Capstone-Project-TA-Assignment-\CS-TA-Assignments-main\CS TA Assignments\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\CondonG\Source\Repos\Capstone-Project-TA-Assignment-\CS-TA-Assignments-main\CS TA Assignments\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\CondonG\Source\Repos\Capstone-Project-TA-Assignment-\CS-TA-Assignments-main\CS TA Assignments\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\CondonG\Source\Repos\Capstone-Project-TA-Assignment-\CS-TA-Assignments-main\CS TA Assignments\obj\Debug\CS TA Assignments.csproj.CopyComplete
